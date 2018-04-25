@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+html {
+    font-size: 62.5%; // definition of 1rem (62.5% of 16px = 10px)
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: $color-black;
+    padding: 3rem;
+    background-color: $color-light-gray;
+}
+
+.spacer {
+    height: 15rem;
+    display: block;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+@media (min-width: 1440px) {
+    .container {
+        width: 90vw;
+    }
+}
