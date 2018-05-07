@@ -28,6 +28,9 @@ body {
     height: 15rem;
     display: block;
 }
+.clearfix {
+    clear: both;
+}
 
 .row.no-gutters {
     margin-right: 0;

@@ -8,7 +8,7 @@ const Header = () => (
         <div className="row">
             <div className="col-sm-2 logo-container">
                 <Link to="/">
-                    <img src="images/logo_header.png" className="logo" alt="Bearded Fellows Logo" />
+                    <img src="/images/logo_header.png" className="logo" alt="Bearded Fellows Logo" />
                 </Link>
             </div>
             <div className="col-sm-10 menu-container">

@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 import vars from "../elements/constants";
 import Portfolio from "./Portfolio";
+import PortfolioBox from "../elements/portfolio-box";
+import PortfolioSingle from "./PortfolioSingle";
 
 const Home = () => {
     
@@ -92,15 +94,15 @@ const HomeBox = (props) => (
     </div>
 );
 
-const PortfolioBox = (props) => (
-    <div className="portfolio-box" style={{backgroundImage: `url(images/portfolio_thumbs/${props.thumbnail})`}}>
-        <div className="portfolio-box__info">
-            <span className="portfolio-box__category">{vars.portfolioCategories[props.category_id].name}</span>
-            /
-            <span className="portfolio-box__title">{props.title}</span>
-        </div>
-    </div>
-)
+// const PortfolioBox = (props) => (
+//     <div className="portfolio-box" style={{backgroundImage: `url(images/portfolio_thumbs/${props.thumbnail})`}}>
+//         <div className="portfolio-box__info">
+//             <span className="portfolio-box__category">{vars.portfolioCategories[props.category_id].name}</span>
+//             /
+//             <span className="portfolio-box__title">{props.title}</span>
+//         </div>
+//     </div>
+// )
 
 
 export default Home;

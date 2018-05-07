@@ -146,7 +146,7 @@
     }
 }
 
-.portfolio-box {
+.portfolio-box, .image-box {
     background-size: cover;
     width: 100%;
     padding-top: 100%;
@@ -163,6 +163,22 @@
         text-align: center;
         width: 100%;
         padding: 2rem 1rem;
+        transition: all 0.3s ease;
+
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: $color-gray;
+    }
+
+    &__category {
+        color: $color-black;
+        padding-right: 0.4rem;
+    }
+    &__title {
+        padding-left: 0.4rem
     }
 
     &__more {
@@ -177,6 +193,137 @@
     }
 }
 
-.portfolio-box:hover .portfolio-box__info{
+.portfolio-box:hover .portfolio-box__info, .image-box:hover .image-box__info{
     bottom: 0;
+}
+.portfolio-box:hover, .image-box:hover{
+    // border: 1rem solid $color-white;
+}
+
+
+.about-main .image-box{
+    margin: 1.5rem;
+}
+
+.about-header {
+
+    padding: 10rem;
+
+    &__heading{
+        font-size: 6.4rem;
+        color: $color-black;
+        text-transform: uppercase;
+        text-align: center;
+
+        white-space: nowrap;
+        line-height: 8rem;
+        font-weight: 700;
+        font-family: "Roboto Condensed";
+        letter-spacing: 0.3rem;
+        // text-shadow: 0.1rem 0.3rem 2rem rgba($color-black, 0.6);
+
+        &--orange {
+            color: $color-orange;
+        }
+
+        &--underline {
+            display:block;
+            margin: 0 auto;
+            width: 40%;
+            height: 0.6rem;
+            background-color: $color-orange;
+        }
+    }
+}
+
+.qtext {
+    font-family: 'Vollkorn';
+    color: #8f8f8f;
+    font-size: 3rem;
+    font-style: italic !important;
+    line-height: 5rem;
+    text-align: left;
+    position: relative;
+}
+
+.about-header .qtext{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+.about-left-team {
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+}
+.about-left-team .qtext {
+    font-size: 2.5rem;
+}
+
+.project-header{
+    background-color: $color-white;
+}
+.project-header .heading_huge{
+    text-align: center;
+}
+
+.project-header__details {
+    padding-top: 5rem;
+}
+
+.heading_medium {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #272727;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 55px;
+}
+
+.project-header__description {
+    padding: 5rem 3rem;
+    color: $color-gray; 
+}
+
+.twocol-row {
+    
+}
+.twocol-row label{
+    display: inline-block;
+    width: 12rem;
+}
+.twocol-row span{
+    color: $color-gray; 
+}
+
+.p-section {
+
+    &__title {
+        font-family: 'Ubuntu', sans-serif;
+        color: #272727;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        margin-top: 10rem
+    }
+
+    &__content {
+
+
+        &--left {
+            padding-right: 3rem;    
+        }
+        &--right {
+            padding-left: 3rem;
+        }
+
+        &--text {
+            padding-top: 5rem;
+        }
+    }
+
+    
 }

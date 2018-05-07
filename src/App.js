@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import PortfolioSingle from "./pages/PortfolioSingle";
 import Contact from "./pages/Contact";
 
 import Header from "./elements/header";
@@ -14,14 +15,18 @@ import './App.css';
 const App = () => (
   <Router>
     <div className="container">
-        <Header />
+      <Header />
 
 
 
 
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/portfolio" component={Portfolio} />
+
+      <Route path="/portfolio/:id" component={PortfolioSingle} />
+      <Route path="/portfolio" exact component={Portfolio} />
+      
+
       <Route path="/contact" component={Contact} />
 
 
