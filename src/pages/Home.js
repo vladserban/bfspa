@@ -39,10 +39,10 @@ const Home = () => {
         </div>
 
         <div className="row no-gutters">
-            <div className="col-sm-4">
+            <div className="col-xs-12 col-sm-4">
                 <h2 className="heading_huge">THE BEARDED APPROACH</h2>
             </div>
-            <div className="col-sm-8">
+            <div className="col-xs-12 col-sm-8">
                 {
                     vars.homeBoxes.map( (homebox) => {
                         return <HomeBox key={homebox.id} {...homebox} />
@@ -56,7 +56,7 @@ const Home = () => {
         <div className="spacer" />
         
         <div className="row no-gutters">
-                <div className="col-sm-6">
+                <div className="col-xs-12 col-sm-6">
                     <h2 className="heading_huge">AWARD WINNING PROJECTS</h2>
                 </div>
                 {

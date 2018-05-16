@@ -124,12 +124,17 @@ const PortfolioSingle = ({ match }) => {
 
             <div className="project-header__details">
                 <div className="col-sm-8">
+                    { project.main_title && 
                     <h3 className="heading_medium">
                         {project.main_title}
                     </h3>
+                    }
+
+                    { project.main_description && 
                     <p className="project-header__description">
                         {project.main_description}
                     </p>
+                    }
                 </div>
                 <div className="col-sm-4">
                     <h3 className="heading_medium">DETAILS</h3>

@@ -10,6 +10,7 @@ const Contact = () => (
 
             <div className="spacer"> </div>
             
+            <div className="contact-details">
             <div className="twocol-row">
                 <label>TEL</label>
                 <span>{vars.phoneNumber}</span>
@@ -28,6 +29,7 @@ const Contact = () => (
             <div className="twocol-row">
                 <label>EML</label>
                 <span>ideas@beardedfellows.co.uk</span>
+            </div>
             </div>
         </div>
         <div className="col-sm-7">

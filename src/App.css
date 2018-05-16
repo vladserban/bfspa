@@ -280,3 +280,105 @@ body {
 
 .p-section__content--text {
   padding-top: 5rem; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 760px) {
+  body {
+    margin: 2rem 0;
+    line-height: 2rem;
+    padding: 0.2rem; }
+  .spacer {
+    height: 5rem; }
+  .logo-container {
+    text-align: center; }
+  .menu-container {
+    padding-top: 2rem;
+    text-align: center; }
+  .menu__item {
+    padding: 0.5rem 1.5rem; }
+    .menu__item a {
+      font-size: 1.2rem;
+      letter-spacing: 0;
+      font-family: inherit; }
+    .menu__item--phone {
+      display: none; }
+  .heading_huge {
+    padding: 1.5rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: 2px;
+    text-align: center; }
+  .home-box {
+    padding: 2rem 0; }
+    .home-box__content {
+      background-color: #fff;
+      padding: 2rem;
+      min-height: 15rem;
+      text-align: center; }
+  .vimeo-wrapper {
+    margin-top: 10rem; }
+  .vimeo-overlay__heading {
+    top: -7rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #272727;
+    text-shadow: 0 0 0 #fff; }
+  .about-header {
+    padding: 2rem 0 6rem 0; }
+    .about-header__heading {
+      font-size: 3rem;
+      line-height: 4rem;
+      letter-spacing: 0.2rem; }
+    .about-header .qtext {
+      font-size: 2rem;
+      width: 90%;
+      margin-top: 5rem; }
+  .about-left-team {
+    padding: 0; }
+    .about-left-team .qtext {
+      font-size: 2rem;
+      text-align: center;
+      margin: 2rem 0;
+      line-height: 2.4rem; }
+  .about-main .image-box {
+    margin: 1rem 0; }
+  .project-header__details {
+    padding-top: 1rem; }
+  .project-header__description {
+    padding: 2rem 0; }
+  .heading_medium {
+    margin-bottom: 1.5rem; }
+  .twocol-row {
+    font-size: 1.3rem; }
+    .twocol-row label {
+      width: 7rem; }
+  .p-section__title {
+    margin-top: 4rem;
+    margin-bottom: 1rem; }
+  .p-section__content--left, .p-section__content--right {
+    padding: 0; }
+  .p-section__content--text {
+    color: #8f8f8f;
+    line-height: 165%;
+    padding-top: 2rem; }
+  .p-section__content img {
+    max-width: 100%; }
+  .portfolio-box {
+    margin-bottom: 0rem; }
+    .portfolio-box__more {
+      font-size: 1.6rem;
+      left: 2rem;
+      bottom: 40%; }
+  .col-xs-12 .portfolio-box {
+    margin-bottom: 2.5rem; }
+  h5.qtext {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center; }
+  .contact-details {
+    text-align: center; }
+    .contact-details .twocol-row {
+      width: 80%;
+      margin: 1.5rem auto; }
+      .contact-details .twocol-row label {
+        display: inline-block; } }

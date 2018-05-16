@@ -40,7 +40,7 @@ class Portfolio extends React.Component {
                         vars.portfolio.map( (project, index) => {
                             
                             return (
-                                <div key={project.id} className="col-xs-6 col-sm-4">
+                                <div key={project.id} className="col-xs-12 col-sm-4">
                                     <PortfolioBox {...project} />
                                 </div>
                             );

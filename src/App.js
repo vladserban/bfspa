@@ -11,7 +11,6 @@ import Header from "./elements/header";
 
 import './App.css';
 
-
 const App = () => (
   <Router>
     <div className="container">
